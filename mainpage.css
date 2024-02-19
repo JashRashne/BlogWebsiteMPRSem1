@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+
+
+/* NAVBAR CSS  */
+
+.head-container{
+    position: relative;
+    text-align: center;
+    background-image: url(img/mainpage-head.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;    
+}
+/* .mainpage-head-image{
+    height: 50rem;
+    width: 120rem;
+
+} */
+.navbar{
+    position: absolute;
+    top: 0;
+    /* background-color: grey; */
+    height: 8rem;
+    width: 120rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-hamburger-menu{
+    /* background-color: skyblue; */
+    margin-left: 7rem;
+}
+.hamburger-menu{
+    height: 3rem;
+}
+.hamburger-menu:hover{
+    cursor: pointer;
+}
+.head-title{
+    /* background-color: skyblue; */
+    color: white;
+    font-family: "Overpass";
+    font-weight: 400;
+    font-size: 2.7rem;
+}
+.head-email-button{
+    /* background-color: skyblue; */
+    margin-right: 7rem;
+}
+.email-button{
+    height: 3rem;
+}
+.head-email-button:hover{
+    cursor: pointer;
+}
+
+
+
+/*HEADER TEXT*/
+
+
+.header-text{
+    /* position: absolute; */
+    /* top: 22rem; */
+    /* background-color: skyblue; */
+    padding: 1rem;
+}
+.head-title-text{
+    padding: 1.5rem 1rem;
+    font-family: 'Playfair display';
+    font-size: 5rem;
+    color: white;
+
+}
+.create-blog-button{
+    padding: 1.3rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    font-family: "Overpass";
+    color: white;
+    background-color: #82584F;
+    font-size: 1.5rem;
+}
+.create-blog-button:hover{
+    cursor: pointer;
+}
+
+
+/* BLOG PAGE ADVANTAGES SECTION */
+
+.blog-page-advantage-section{
+    height: 34rem;
+    display: flex;
+    width: fit-content;
+    
+}
+.blog-page-advantage-left{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex: 1;
+    height: 100%;
+}
+.blog-page-advantage-right{
+    background-color: #F3F4F6;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+
+    flex-direction: column;
+}
+.advantages-pic{
+    height: 23rem;
+    margin-right: 10rem;
+}
+.advantages-text{
+    font-family: "Overpass";
+    margin-left: 8rem;
+    padding-top: 1rem;
+    padding-right: 20rem;
+    color: #717984;
+}
+.advantages-title{
+    font-family: 'Playful Display';
+    font-size: 2rem;
+    margin-left: 8rem;
+    font-weight: bolder;
+    color: #374151;
+}
+
+/*MAINPAGE IMAGE 1*/
+.main-page-image1-pic{
+    height: 50rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*ADVANTAGE WITHOUT COLUMN*/
+.blog-page-advantage-without-columns{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.bpawc-title{
+    color: #374151;
+    font-family: "Playfair Display";
+    width: 50rem;
+    font-size: 2.6rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.bpawc-text{
+    color: #717984;
+    width: 50rem;
+    text-align: center;
+}
+
+/*MAINPAGE IMAGE 2*/
+.main-page-image2-pic{
+    height: 25rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* MAIN PAGE IMAGE WITH CREATE BUTTON*/
+.main-page-image-create{
+    height: 35rem;
+    position: relative;
+    background-image: url("img/mainpagepic3\ 1.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mpic-title{
+   font-family: "Playfair Display"; 
+   font-size: 2.6rem;
+   font-weight: bolder;
+   color: white;
+   padding: 1rem;
+   width: 50rem;
+   text-align: center;
+}
+.mpic-text{
+    font-family: "Overpass";
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;
+    padding-bottom: 1.8rem;
+    width: 50rem;
+    text-align: center;
+}
+.create-blog-button-2{
+    background-color: #8F5B3E;
+}
+
+
+/*FOOTER*/
+.blog-main-page-footer{
+    background-color: #37393d;
+    height: 30rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-title{
+    color: white;
+    font-family: "Overpass";
+    font-size: 2rem;
+    font-weight: 200;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.footer-socials{
+    margin-bottom: 1rem;
+}
+.img-socials{
+    height: 3rem;
+    margin: 1rem;
+}
+.footer-navbuttons{
+    margin: 1rem;
+}
+.navbuttons-text{
+    color: white;
+    font-family: 'Overpass';
+    font-size: larger;
+    font-weight: 100;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/*HAMBURGER MENU*/
+/*DEFAULT*/
+.hamburger-screen-container{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #E2D5D0; 
+    z-index: 9999;
+    opacity: 0;
+    
+}
+.hamburger-cancel-img{
+    height: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+.hamburger-cancel-img:hover{
+    cursor: pointer;
+}
+.hamburger-screen {
+    position: absolute; /* Position the inner div */
+    top: 50%; /* Move the top edge to the middle of the outer div */
+    left: 50%; /* Move the left edge to the middle of the outer div */
+    transform: translate(-50%, -50%); /* Translate the inner div back by half its own dimensions */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hamburger-text{
+    color: #6F2D12;
+    padding: 2rem 0;
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+/*ON CLICKING HAMBURGER - 'ACTIVE'*/
+.hamburger-screen-container.active{
+    left: 0;
+    opacity: 1;
+}
